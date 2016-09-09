@@ -1,0 +1,42 @@
+{
+  "foo/bar.js": {
+    "path": "foo/bar.js",
+    "locations": [
+      {
+        "id": 0,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 0
+          },
+          "end": {
+            "line": 1,
+            "column": 13
+          }
+        },
+        "tags": [
+          "variable",
+          "statement"
+        ],
+        "count": 1
+      },
+      {
+        "id": 1,
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 10
+          },
+          "end": {
+            "line": 1,
+            "column": 12
+          }
+        },
+        "tags": [
+          "expression"
+        ],
+        "count": 1
+      }
+    ]
+  }
+}
