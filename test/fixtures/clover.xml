@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="123456789" clover="3.2.0">
+    <project name="All Files">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="1" coveredelements="1" loc="1" ncloc="0" complexity="0" packages="1" files="1" classes="1"/>
+        <package>
+            <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="1" coveredelements="1" loc="1" ncloc="0"/>
+            <file name="bar.js" path="foo/bar.js">
+                <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="1" coveredelements="1" loc="1" ncloc="0"/>
+                <line num="1" count="1" type="stmt"/>
+            </file>
+        </package>
+    </project>
+</coverage>
