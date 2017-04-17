@@ -24,13 +24,12 @@ function analyzeFile(filePath, fileCoverage) {
   return {
     name: path.basename(filePath),
     path: filePath,
-    lines: lines(fileCoverage.locations),
-    metrics: computeMetrics(fileCoverage.locations)
+    lines: lines(fileCoverage),
+    metrics: computeMetrics(fileCoverage)
   };
 }
 
 export default function analyzeFiles(filesCoverage) {
-  return Object.keys(filesCoverage).map(filePath => {
-    return analyzeFile(filePath, filesCoverage[filePath]);
-  });
+  return Object.keys(filesCoverage)
+    .map(filePath => analyzeFile(filePath, filesCoverage[filePath]));
 }

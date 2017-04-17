@@ -11,11 +11,11 @@ function extractPackageNames(files) {
   const splitFilePaths = files.map(file => file.path.split(separator));
   const commonPath = findCommonPath(splitFilePaths);
 
-  return splitFilePaths.map(splitFilePath => {
-    return splitFilePath
+  return splitFilePaths.map(splitFilePath =>
+    splitFilePath
       .slice(commonPath.length, -1)
-      .join('.');
-  });
+      .join('.')
+  );
 }
 
 export default function groupFilesByPackage(files) {

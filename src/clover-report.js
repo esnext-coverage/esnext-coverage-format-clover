@@ -6,9 +6,8 @@
 import XMLWriter from 'xml-writer';
 
 function objectSubkeyValueSum(obj, subkey) {
-  return Object.keys(obj).reduce((result, key) => {
-    return result + obj[key][subkey];
-  }, 0);
+  return Object.keys(obj)
+    .reduce((result, key) => result + obj[key][subkey], 0);
 }
 
 function omit(keyToOmit, obj) {
