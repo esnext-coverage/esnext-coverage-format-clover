@@ -1,6 +1,6 @@
 {
   "name": "esnext-coverage-format-clover",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "esnext-coverage clover formatter",
   "main": "dist/index.js",
   "keywords": [
